@@ -1,0 +1,37 @@
+[data-testid="stSidebar"] {
+  background: #101a29;
+  border-right: 1px solid #243347;
+}
+[data-testid="stMainBlockContainer"] {
+  max-width: 1440px;
+  padding-top: 2.7rem;
+}
+.brand { color: #55e0b5; font-weight: 800; letter-spacing: .15em; font-size: .78rem; }
+.hero {
+  padding: clamp(1.25rem, 3vw, 2.5rem);
+  border: 1px solid #263a51;
+  border-radius: 18px;
+  background: radial-gradient(ellipse at 92% 12%, #17483f 0%, transparent 55%),
+              linear-gradient(125deg, #17253b, #101a2a);
+  margin-bottom: .65rem;
+}
+.hero .eyebrow { color: #63e6bd; font-size: .74rem; font-weight: 800; letter-spacing: .16em; }
+.hero h1 { font-size: clamp(2rem, 5vw, 3.4rem); line-height: 1.08; margin: .38rem 0 .65rem; padding: 0; }
+.hero p { color: #bfcede; margin: 0; max-width: 61ch; }
+[data-testid="stMetric"] {
+  background: #152235;
+  border: 1px solid #2a3b50;
+  border-top: 2px solid #55e0b5;
+  border-radius: 12px;
+  padding: .85rem 1rem;
+}
+[data-testid="stMetricValue"] { color: #f1f7ff; font-size: clamp(1.45rem, 3vw, 2.1rem); }
+[data-testid="stPlotlyChart"] {
+  border: 1px solid #263a51;
+  border-radius: 12px;
+  overflow: hidden;
+}
+[data-testid="stCaptionContainer"] { color: #bac8db; }
+@media (max-width: 640px) {
+  [data-testid="stMainBlockContainer"] { padding-inline: 1rem; padding-top: 3.5rem; }
+}
