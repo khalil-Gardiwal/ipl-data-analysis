@@ -1,6 +1,8 @@
 # IPL Analytics Dashboard
 
-An interactive analysis of Indian Premier League cricket from 2008 to 2024. Python and Pandas handle data preparation and calculations, Plotly renders the charts, and Streamlit provides the dashboard, filters, comparisons and CSV exports. The [original analysis notebook](notebooks/ipl-analysis.ipynb) contains the exploratory work and Matplotlib and Seaborn visualizations. The [practice notebook](notebooks/ipl_practice.ipynb) contains supplementary checks.
+An interactive analysis of Indian Premier League cricket from 2008 to 2024. Python and Pandas handle data preparation and calculations, Plotly renders the charts, and Streamlit provides the dashboard, filters, comparisons and CSV exports. The [original analysis notebook](notebooks/ipl-analysis.ipynb) contains the exploratory work and Matplotlib and Seaborn visualizations.
+
+**[Open the live IPL Analytics Dashboard](https://ipl-analytics-khalil.streamlit.app/)**
 
 ![IPL overview with season volume, team wins and league KPIs](images/dashboard-overview.png)
 
